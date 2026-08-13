@@ -1,0 +1,68 @@
+
+    body {
+        margin: 0;
+         font-family: "Unbounded", sans-serif;
+
+    }
+    .header {
+        background-color:#e9cfcc;
+     display: flex;
+         justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    padding-left: 50px;
+     }
+        .logo {
+        width: 100px;
+    }
+    .header-links a {
+        background-color: #ddb5b1;
+        padding: 5px 15px;
+        text-decoration: none;
+        border-radius: 15px;
+    } 
+ .header-links a{
+color: white}
+    
+   
+   
+    .header-links button{
+        background-color: #c6827c;
+        color: white;
+        border-radius: 15px;
+        padding: 5px 15px;
+        border:none;
+
+    }
+    .header-links button:hover{
+        background-color: #d29c97;
+        border-radius: 15px;
+        padding: 5px 15px;
+    }
+    .header-links a:hover{
+        background-color: #c6827c
+    }
+.landing-page {
+    background-color:#e9cfcc;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 50px;
+color: rgb(73, 73, 73);
+}
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+    
+}
+.landing-page-search button{
+    position: absolute;
+background-color: #c6827c;
+        color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 5px 15px;
+        border:none;
+}
